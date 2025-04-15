@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link  rel="stylesheet" href="./style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li ><a href="index.html">Home</a></li>
+                    <li ><a href="about.html">about</a></li>
+                    <li ><a href="course.html">course</a></li>
+                    <li ><a href="blog.html">blog</a></li>
+                    <li ><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+          
+            <h1>Our Certificate and Online Program for 2024</h1>
+    
+    </section>
+    <section class="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img src="./eduford_img/certificate.jpg">
+                <h2>Our Certificate and Online Program for 2024</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                <br>
+                <p> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam</p>
+                <br>
+                <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasion</p>
+                <div class="comment-box">
+                    <h3> Leave comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter name">
+                        <input type="email" placeholder="Enter Email Id">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn abt-btn">Post Comment</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Catogories</h3>
+                <div><span>Business analytics</span><span>22</span></div>
+                <div><span>Engineers</span><span>22</span></div>
+                <div><span>MBA</span><span>22</span></div>
+                <div><span>Artificial Intelligence</span><span>22</span></div>
+                <div><span>Machine Learning</span><span>22</span></div>
+            </div>
+        </div>
+    
+
+    </section>
+    
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of <br>classical Latin literature from 45 BC, making it over 2000 years old</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-youtube" ></i>
+    </div>
+</section>
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+
+
+
+    </script>
+
+
+    
+</body>
+</html>
